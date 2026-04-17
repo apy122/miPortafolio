@@ -1,3 +1,5 @@
+import './App.css'
+
 const seccionesTecnologia = [
   {
     titulo: '1. Lenguajes de Programacion.',
@@ -40,8 +42,6 @@ const certificaciones = [
   }
 ]
 
-import './App.css'
-
 function App() {
   return (
     <div className="portfolio">
@@ -61,7 +61,6 @@ function App() {
           {seccionesTecnologia.map((seccion) => (
             <div className="tech-category" key={seccion.titulo}>
               <h3>{seccion.titulo}</h3>
-              <p>{seccion.subtitulo}</p>
               <div className="tech-grid">
                 {seccion.elementos.map((elemento) => (
                   <span key={elemento} className="tech-tag">
