@@ -47,7 +47,7 @@ function App() {
     <div className="portfolio">
       <header className="header">
         <div className="container">
-          <h1>Desarrollador Full Stack</h1>
+          <h1>Alvaro Perez</h1>
           <p className="subtitle">
             Estudiante de 2º DAM | Java • React • Vue • Python
           </p>
